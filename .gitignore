@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PDFs folder — ignore all except the sample
+PDFs/*
+!PDFs/sample.pdf
+
+# Output folder — ignore all except the sample result
+output/*
+!output/sample/
+
+# OS files
+.DS_Store
+Thumbs.db
